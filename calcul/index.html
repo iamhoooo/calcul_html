@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="calculator">
+        <form name = "forms">
+            <input type="text" name="output" readonly>
+            <input type="button" class="clear" value = "C" onclick = "clearOutput()">
+            <input type="button" class="operator" value="/" onclick="divide()">
+            <input type="button" value="1" onclick="one()">
+            <input type="button" value="2" onclick="two()">
+            <input type="button" value="3" onclick="three()">
+            <input type="button" class="operator" value="*" onclick="multi()">
+            <input type="button" value="4" onclick="four()">
+            <input type="button" value="5" onclick="five()">
+            <input type="button" value="6" onclick="six()">
+            <input type="button" class="operator" value="+" onclick="plus()">
+            <input type="button" value="7" onclick="seven()">
+            <input type="button" value="8" onclick="eight()">
+            <input type="button" value="9" onclick="nine()">
+            <input type="button" class="operator" value="-" onclick="minus()">
+            <input type="button" class="dot" value="." onclick="dot()">
+            <input type="button" value="0" onclick="zero()">
+            <input type="button" class="operator result" value="=" onclick="result()">
+
+        </form>
+    </div>
+    
+</body>
+</html>
