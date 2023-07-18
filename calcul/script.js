@@ -5,7 +5,7 @@ function clearOutput() {
 function divide() {
     document.forms.output.value += '/';
 }
-
+ 
 function one() {
     document.forms.output.value += '1';
 }
