@@ -22,7 +22,7 @@ function multi() {
     document.forms.output.value += '*';
 }
 
-function four() {
+function four() {  
     document.forms.output.value += '4';
 }
 
